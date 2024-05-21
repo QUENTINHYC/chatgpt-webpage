@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': `Bearer sk-proj-kSEuqUO803eMN07T5nbGT3BlbkFJogrhVBdO1fQU3kbIMF1G`
+                'Authorization': `Bearer sk-proj-kSEuqUO803eMN07T5nbGT3BlbkFJogrhVBdO1fQU3kbIMF1G'
             },
             body: JSON.stringify({
                 model: 'gpt-3.5-turbo',
